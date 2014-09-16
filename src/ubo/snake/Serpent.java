@@ -27,8 +27,8 @@ public class Serpent {
     }
       
       private void tourner() {
-          if (this.demande != null) { // une touche à été pressée
-                // le serpent va vers le haut ou le bas
+          if (this.demande != null) { // modification 0
+                // Modification 1
                 if (this.direction == Direction.VERS_LE_HAUT
                             || this.direction == Direction.VERS_LE_BAS) {
                       if (this.demande == Direction.VERS_LA_DROITE) { // la touche droite
